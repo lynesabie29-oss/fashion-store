@@ -1,10 +1,9 @@
 function welcomeMessage() {
-  alert("Welcome to Urban Vogue Fashion Store! 🛍️");
+  alert("Welcome to Bramavill Fashion! 🛍️");
 }
 
 function changeText() {
-  document.getElementById("myText").innerHTML =
-    "Fashion is your personal style ✨";
+  document.getElementById("myText").innerHTML = "Fashion is your personal style ✨";
 }
 
 function toggleDarkMode() {
@@ -12,21 +11,24 @@ function toggleDarkMode() {
 }
 
 document.getElementById("welcomeBtn").addEventListener("click", function () {
-  document.querySelector(".mt-3").innerText = "Hello! 🎉";
+  document.querySelector(".mt-3").innerText = "Welcome! 🎉";
 });
 
 function changeText() {
   document.getElementById("aboutText").innerText =
-    "About page text changed successfully 🎉";
+    "shop with bramavill🎉";
 }
 
 
 function toggleInfo() {
   const info = document.getElementById("storeInfo");
 
-  if (info.style.display === "none") {
-    info.style.display = "block";
-  } else {
-    info.style.display = "none";
-  }
+}
+
+let storeInfo=document.getElementById("storeInfo")
+if(storeInfo.style.display="none"){
+  storeInfo.style.display="block"
+}
+else{
+  storeInfo.style.display="none"
 }

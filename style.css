@@ -1,9 +1,51 @@
-/HOME PAGE/
-body{
-    background-color: violet;
-}
+
+
 
 .dark-mode {
-  background-color: #121212;
+  background-color: hwb(0 0% 96%);
   color: white;
 }
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+.container my-5{
+  background:#ffff;
+  border-radius: 20px;
+  padding: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  
+}
+
+.container{
+  background-color:gray;
+} 
+footer{
+  border-radius: 50px;
+  text-align: center;
+  background-color:gray;
+}
+.footer-mm{
+  border-radius: 50px;
+  text-align: center;
+  background-color:gray;
+
+}
+
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
